@@ -9,7 +9,7 @@ const Navbar = ({setSearch}) => {
          className="button mt-4 btn btn-outline-warning mx-3">Nature</div>
         <div
           onClick={()=>setSearch("travel")} 
-         className="button mt-4 btn btn-outline-primary mx-3">Travel</div>
+         className="button mt-4 btn btn-outline-primary mx-3">Travel Info</div>
         <div
           onClick={()=>setSearch("city")} 
          className="button mt-4 btn btn-outline-info mx-3">City</div>
